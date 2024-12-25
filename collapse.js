@@ -1,5 +1,5 @@
 console.log('omg');
-console.log("Web first developed in 14/05/23. Last updated 24/08/24");
+console.log("Web first developed in 14/05/23. Last updated 25/12/24");
 
 //VARIABLES
 const collapse = document.getElementById("option");
