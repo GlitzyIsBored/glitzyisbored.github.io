@@ -1,0 +1,119 @@
+@import url('omgResponsive.css');
+
+/* INTERACTION */
+.active {
+	background-color: white;
+	display: block;
+}
+
+.click {
+	color: black !important;
+	background-color: white !important;
+}
+
+#expand:hover {
+	cursor: pointer;
+}
+
+/* DEFAULT */
+html {
+	cursor: url("./Images/Cursor/Flower.png"), auto;
+}
+body {
+	margin: 0;
+	margin-top: 22vh;
+	background-color: rgb(31, 31, 31);
+}
+
+/* NAVBAR */
+#expand {
+	margin: 0;
+	top: 0;
+	overflow: hidden;
+	position: fixed;
+	width: 55px;
+	padding: 10px 16px;
+	color: white;
+	background-color: transparent;
+}
+
+ul {
+	list-style-type: none;
+	top: 0;
+	margin: 0;
+	margin-left: 4rem;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	width: 100vw;
+	background-color: white;
+	display: none;
+} 
+
+.fa-solid {
+	font-size: 40px;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 8px 12px !important;
+}
+
+/* MAIN */
+.header-2 {
+	max-width: 900px;
+    text-align: center;
+    background-color: white;	
+	border: 12px white solid;
+}
+
+h3 {
+    color: rgb(221, 191, 252);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.header {
+	margin: auto;
+	padding: 0% 10%;
+	max-width: 900px;
+}
+
+#icon {
+	max-height: 200px;
+}
+
+/* SECTION BOXES */
+h1,p {
+    color: rgb(53, 2, 54);
+    font-size: 20px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+#container {
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+.s-1, .s-2, .s-3 {
+    width:200px;
+    border: 10px Solid rgb(221, 191, 252); background-color: rgb(197, 140, 219);
+    border-radius: 10px;
+    margin: 45px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    color: dimgrey;
+    padding-top: 4%;
+}
