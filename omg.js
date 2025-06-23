@@ -1,4 +1,4 @@
-console.log('omg\nWeb first developed in 8/01/25, last updated 12/01/25');
+console.log('omg\nWeb first made in 14/05/23, last updated 23/06/25');
 
 //NAVBAR
 const collapse = document.getElementById("expand");
@@ -10,7 +10,10 @@ function action() {
 }
 
 //AGE
-const birthDate = new Date("2006-07-25");
-let toYear = birthDate.getFullYear();
+const currentDate = new Date();
+const birthdate = new Date('7/25/2006'); // screw this date format.
 
-document.getElementById("omgAge").innerHTML = new Date().getFullYear() - toYear;
+let timeDifference = Math.abs(currentDate - birthdate);
+let dateToYear = Math.floor(timeDifference / (1000*60*60*24) / 365);
+
+document.getElementById("omgAge").innerHTML = dateToYear;
