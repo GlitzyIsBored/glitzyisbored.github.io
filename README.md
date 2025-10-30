@@ -1,2 +1,3 @@
 # https://glitzyisbored.github.io/omg
-Remake of my 2023 web
+Rewrite of my basic af 2023 web
+
