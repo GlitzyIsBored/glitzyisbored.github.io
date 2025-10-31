@@ -1,4 +1,4 @@
-console.log('omg\nWeb first made in 14/05/23, last updated 23/06/25');
+console.log('omg\nWeb first made in 14/05/23, last updated 31/10/25');
 
 //NAVBAR
 const collapse = document.getElementById("expand");
